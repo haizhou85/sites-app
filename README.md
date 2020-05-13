@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I used ruby version: 2.7.0, rails version: 6.0.2 and postgresql to build this appication
 
-Things you may want to cover:
+To get started, run these commands in terminal
+- `$ yarn`
+- `$ bundle install`
+- `$ rails db:create db:migrate db:seed`
+- `$ rails s`
 
-* Ruby version
+## Api endpoints
+- Get List of sites
 
-* System dependencies
+`GET localhost:3000/sites/`
 
-* Configuration
+- Get site by id
 
-* Database creation
+`GET localhost:3000/sites/{id}`
 
-* Database initialization
+- Search sites by zipcode
 
-* How to run the test suite
+`GET localhost:3000/sites?zipcode=92121`
 
-* Services (job queues, cache servers, search engines, etc.)
+- Create a site
 
-* Deployment instructions
+`POST localhost:3000/sites`
 
-* ...
+- Update a site
+
+`PUT localhost:3000/sites/{id}`
+
+- Delete a site
+
+`DELETE localhost:3000/sites/{id}`
+
+- Create a site use
+
+`POST localhost:3000/site_uses`
+
+- Update site
+
+`PUT localhost:3000/site_uses/{id}`
+
+- Delete a site
+
+`DELETE localhost:3000/sites/{id}`

@@ -20,3 +20,7 @@ end
 site_use_list.each do |site_use|
     SiteUse.create(site_use)
 end
+
+ActiveRecord::Base.connection.tables.each do |table_name| 
+    ActiveRecord::Base.connection.reset_pk_sequence!(table_name)
+end
