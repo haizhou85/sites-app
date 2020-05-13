@@ -8,7 +8,7 @@ To get started, run these commands in terminal
 - `$ rails db:create db:migrate db:seed`
 - `$ rails s`
 
-## Api endpoints
+## API Endpoints
 - Get List of sites
 
 `GET localhost:3000/sites/`
