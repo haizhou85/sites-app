@@ -1,6 +1,9 @@
 # README
 
-I used ruby version: 2.7.0, rails version: 6.0.2 and postgresql to build this application
+## Prerequisites
+- Ruby version: 2.7.0 
+- Rails version: 6.0.2
+- Postgresql
 
 ## Getting Set Up
 
@@ -12,8 +15,6 @@ I used ruby version: 2.7.0, rails version: 6.0.2 and postgresql to build this ap
 - `$ rails s`
 
 ## API Endpoints
-
-I wrote APIs in sites and site uses controllers
 
 - Get List of sites
 
@@ -50,3 +51,12 @@ I wrote APIs in sites and site uses controllers
 - Delete a site use
 
 `DELETE localhost:3000/sites/{id}`
+
+## Features to be implemented:
+
+If there’s enough time, I would like to implement more features as listed below.
+
+1. Use nested attributes/serializers to build APIs on site_use
+2. Testing
+3. Search engine
+4. Caching
