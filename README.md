@@ -1,14 +1,20 @@
 # README
 
-I used ruby version: 2.7.0, rails version: 6.0.2 and postgresql to build this appication
+I used ruby version: 2.7.0, rails version: 6.0.2 and postgresql to build this application
 
-To get started, run these commands in terminal
+## Getting Set Up
+
+- `$ git clone https://github.com/haizhou85/sites-app.git`
+- `$ cd sites-app`
 - `$ yarn`
 - `$ bundle install`
 - `$ rails db:create db:migrate db:seed`
 - `$ rails s`
 
 ## API Endpoints
+
+I wrote APIs in sites and site uses controllers
+
 - Get List of sites
 
 `GET localhost:3000/sites/`
