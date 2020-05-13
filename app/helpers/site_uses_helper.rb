@@ -1,0 +1,2 @@
+module SiteUsesHelper
+end
