@@ -37,10 +37,10 @@ To get started, run these commands in terminal
 
 `POST localhost:3000/site_uses`
 
-- Update site
+- Update site use
 
 `PUT localhost:3000/site_uses/{id}`
 
-- Delete a site
+- Delete a site use
 
 `DELETE localhost:3000/sites/{id}`
